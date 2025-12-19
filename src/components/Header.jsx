@@ -42,9 +42,9 @@ function Header({ onAddClick, prompts, onImport }) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src={logoImage} 
+              src={logoImage}
               alt="Best Practice Logo" 
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 object-contain flex-shrink-0"
             />
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-gold via-yellow-400 to-gold bg-clip-text text-transparent">
