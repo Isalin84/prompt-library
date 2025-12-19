@@ -1,6 +1,5 @@
 import { useRef } from 'react'
 import { Plus, Download, Upload } from 'lucide-react'
-import logoImage from '../assets/LogoBP_YellowCircle.png'
 
 function Header({ onAddClick, prompts, onImport }) {
   const fileInputRef = useRef(null)
@@ -42,7 +41,7 @@ function Header({ onAddClick, prompts, onImport }) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src={logoImage}
+              src={`${import.meta.env.BASE_URL}LogoBP_YellowCircle.png`}
               alt="Best Practice Logo" 
               className="w-10 h-10 object-contain flex-shrink-0"
             />
